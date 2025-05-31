@@ -26,8 +26,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Nextjs Starter",
-    template: "%s | Nextjs Starter",
+    default: "Zeal Split",
+    template: "%s | Zeal Split",
   },
   icons: [
     {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       type: "image/x-icon",
     },
   ],
-  description: "Nextjs Starter",
+  description: "Zeal Split",
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
   alternates: {
     canonical: "/",
@@ -44,22 +44,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "/",
-    siteName: "Nextjs Starter",
-    title: "Nextjs Starter",
-    description: "Nextjs Starter",
+    siteName: "Zeal Split",
+    title: "Zeal Split",
+    description: "Zeal Split",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Nextjs Starter",
+        alt: "Zeal Split",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nextjs Starter",
-    description: "Nextjs Starter",
+    title: "Zeal Split",
+    description: "Zeal Split",
     images: ["/og-image.jpg"],
   },
   robots: {
