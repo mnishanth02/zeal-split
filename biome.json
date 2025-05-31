@@ -16,7 +16,8 @@
       "**/coverage",
       "**/.husky",
       "**/.vscode",
-      "**/drizzle/migrations"
+      "**/drizzle/migrations",
+      "**/convex/_generated/**"
     ]
   },
   "formatter": {
@@ -35,7 +36,8 @@
       "**/coverage",
       "**/.husky",
       "**/.vscode",
-      "**/drizzle/migrations"
+      "**/drizzle/migrations",
+      "**/convex/_generated/**"
     ]
   },
   "organizeImports": {
@@ -77,7 +79,7 @@
       "trailingCommas": "es5",
       "semicolons": "always"
     },
-    "globals": ["React"]
+    "globals": ["React", "Convex"]
   },
   "json": {
     "parser": {

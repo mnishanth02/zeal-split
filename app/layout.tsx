@@ -88,6 +88,9 @@ export default function RootLayout({ children, modal }: RootLayoutProps) {
       className={`${inter.className}`}
       suppressContentEditableWarning
     >
+      <head>
+        <link rel="icon" href="/logos/logo-s.png" sizes="any" />
+      </head>
       <body className="min-h-screen bg-background font-sans antialiased">
         <AppProvider>
           {children}
